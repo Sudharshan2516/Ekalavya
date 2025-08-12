@@ -1,2 +1,3 @@
 # Ekalavya
 Initial point of EKalavya.....
+This repo is completely project oriented 

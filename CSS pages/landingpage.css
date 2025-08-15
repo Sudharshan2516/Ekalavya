@@ -1,0 +1,91 @@
+/* Nav Bar  */
+*{
+    padding: 0px;
+    margin: 0;
+}
+#navbar{
+    height:120px;
+    background-color: #96b8cd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* button{
+    background-color: #f08804;
+    
+} */
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+a {
+    margin-right:190px;
+    text-decoration: none;
+}
+
+.image-container{
+  border: 2px solid white;
+  background-size: cover;
+}
+
+/* body {
+    background: url("../Assets/Main-Logo.png") no-repeat center;
+    background-size: cover;
+} */
+
+/* Student cards  */
+.studentregis-main-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 15%;
+  padding: 5%;
+  border: 2px solid none;
+}
+
+.studentregis-sub-1{
+  position: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid none;
+  margin-bottom: 5%;
+}
+
+.regis-cards-sub1{
+  position: relative;
+  border: 2px solid black;
+  padding: 5%;
+}
+
+.studentregis-sub-2{
+  position: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px solid none;
+}
+
+.regis-cards-sub1,
+.regis-cards-sub2 {
+  width: 150px;
+  height: 150px; /* same height for all cards */
+  border: 2px solid black;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* pushes button to bottom */
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.regis-cards-sub2{
+  position: relative;
+  border: 2px solid black;
+  padding: 3%;
+  margin-right: 10%;
+}
+
